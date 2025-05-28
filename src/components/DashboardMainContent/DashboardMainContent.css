@@ -1,0 +1,16 @@
+/* src/components/DashboardMainContent/DashboardMainContent.css */
+
+.dashboard-main-content {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+  /* --- ENSURE THIS LINE IS REMOVED --- */
+  /* margin-left: 250px; */
+  /* ----------------------------------- */
+
+  flex-grow: 1; /* Allows this content area to fill the remaining horizontal space */
+  box-sizing: border-box;
+}
+
+/* ... rest of DashboardMainContent.css remains the same ... */

@@ -1,0 +1,24 @@
+.appointment-card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-info {
+  text-align: left;
+}
+
+.appointment-title {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.appointment-day,
+.appointment-time {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}

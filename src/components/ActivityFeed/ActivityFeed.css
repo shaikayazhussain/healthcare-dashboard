@@ -1,0 +1,38 @@
+/* src/components/ActivityFeed/ActivityFeed.css */
+
+.activity-feed {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center;
+}
+
+.activity-feed h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.activity-feed p {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.activity-chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; /* Bars start from the bottom */
+  height: 100px; /* Fixed height for the chart area */
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.activity-chart .bar {
+  width: 20px; /* Width of each bar */
+  background-color: #4CAF50; /* Green color for bars */
+  margin: 0 5px;
+  border-radius: 3px;
+  transition: height 0.3s ease-in-out; /* Smooth transition for height changes */
+}

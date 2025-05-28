@@ -1,0 +1,59 @@
+/* src/components/UpcomingSchedule/UpcomingSchedule.css */
+
+.upcoming-schedule {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-schedule h3 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.appointments {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.appointment-card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-left: 5px solid #4CAF50; /* Example default color, can be dynamic */
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.appointment-card:hover {
+    transform: translateY(-2px);
+}
+
+.appointment-icon {
+    margin-right: 15px;
+    display: flex; /* To center icon */
+    align-items: center;
+    justify-content: center;
+}
+
+.appointment-details p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.appointment-details span {
+    font-size: 0.85em;
+    color: #666;
+}
+
+/* Example: Dynamic border colors based on type, if you add them */
+/* .appointment-card.health-checkup { border-left-color: #4CAF50; } */
+/* .appointment-card.ophthalmologist { border-left-color: #2196F3; } */
+/* .appointment-card.cardiologist { border-left-color: #F44336; } */
+/* .appointment-card.neurologist { border-left-color: #9C27B0; } */

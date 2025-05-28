@@ -1,0 +1,47 @@
+/* src/components/AnatomySection/AnatomySection.css */
+
+.anatomy-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative; /* For positioning indicators */
+    overflow: hidden; /* Ensure indicators don't spill */
+}
+
+.anatomy-section h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.anatomy-container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust based on image aspect ratio */
+}
+
+.anatomy-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below image */
+}
+
+.indicator {
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the indicator on its position */
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap; /* Prevent text wrapping */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.indicator:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+}

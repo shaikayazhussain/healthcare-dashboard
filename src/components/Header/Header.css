@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #0078d7;
+  font-weight: bold;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-bar {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #555;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.add-button {
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
